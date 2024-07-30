@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: linear-gradient(black, white);
+    background-repeat: no-repeat;
+}
+
+.container1{
+    height: 80px;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    
+    
+}
+
+.hyper{
+    text-decoration: none;
+    color: white;
+    font-family: Valorant;
+}
+
+.rand{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    font-family: Valorant;
+    gap: 30px;
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 170px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-family: Valorant;
+    border: 3px solid white;
+    outline: 3px solid #000;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+}
